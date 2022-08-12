@@ -13,4 +13,14 @@ For the preparation we need to do some steps :
  We do this for Allowed Callback URLs, Allowed Logout URLs and the Allowed Web Origins.
 
 ### Step 2
-- We gonna need to make a GLOBAL .ENV file in our application 
+We gonna need to make a GLOBAL .ENV file in our application with two parameters:
+-  REACT_APP_AUTH0_Domain = Domain(auth0) in ur basic information
+-  REACT_APP_AUTH0_CLIENT_ID = Client ID(auth0) in ur basic information
+
+### Step 3
+We need to install the auth0 npm package -> npm i @auth0/auth0-react
+
+Now we are ready to actually start on the application itself!
+
+
+
